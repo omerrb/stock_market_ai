@@ -5,7 +5,6 @@ import numpy as np
 from time import strptime
 
 
-
 def remove_duplicatives(df):
     return df.drop_duplicates(subset=['date'], keep='first')
 
