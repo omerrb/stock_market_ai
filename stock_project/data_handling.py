@@ -55,6 +55,7 @@ def compare_dates_df_stock(stock_df, dates):
             is_exist_column.append(0)
     return is_exist_column
 
+
 def create_holidays_date():
     holidays = []
     dates = []

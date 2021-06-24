@@ -5,12 +5,11 @@ import pandas as pd
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
-stocks_symbol = {"s&p": "%5EGSPC",
-                 "nasdaq": "%5EIXIC",
-                 "oil": "CL%3DF",
-                 "bitcoin": "BTC-USD"}
+stocks_symbol = {"s&p": "%5EGSPC"}
+                 # "nasdaq": "%5EIXIC",
+                 # "bitcoin": "BTC-USD"}
 base_url = f"https://finance.yahoo.com/quote/"
-date_range = f"/history?period1=1589026611&period2=1620562611&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true"
+date_range = f"/history?period1=1464739200&period2=1622505600&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true"
 driver = None
 stocks_data = {}
 
