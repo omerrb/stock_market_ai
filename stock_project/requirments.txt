@@ -1,9 +1,0 @@
-bs4
-lxml
-pandas
-selenium
-webdriver_manager
-twitter
-twython
-urllib2
-
